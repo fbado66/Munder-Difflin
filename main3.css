@@ -16,11 +16,13 @@ body {
 section {
     height: 670px;
     padding: 2px;
+    text-align: center;
 }
 
 header {
     height: 670px;
     font-family: sans-serif;
+    text-align: right;
 }
 
 header a{
@@ -37,6 +39,17 @@ header li{
     display: inline;
 }
 
+header nav {
+    float: right; 
+    padding: 10px; 
+    margin-top: 0px; 
+}
+
+header a:hover{
+    color: red; 
+    font-weight: bold; 
+}
+
 #second-image {
     float: left;
     padding-top: 55px;
@@ -51,17 +64,6 @@ header li{
     margin-left: 0px; 
     width: 60.5%;
     height: 20%;
-}
-
-header nav {
-    float: right; 
-    padding: 10px; 
-    margin-top: 0px; 
-}
-
-header a:hover{
-    color: red; 
-    font-weight: bold; 
 }
 
 #top-image {
@@ -118,14 +120,6 @@ header a:hover{
     position: relative
 }
 
-.column4 {
-    margin: auto;
-    display: inline-block;
-    padding-right: 20px;
-    padding-left: 20px;
-    position: relative
-}
-
 .column3 {
     left: 50px; 
     margin: auto;
@@ -136,6 +130,14 @@ header a:hover{
     position: relative
 }
 
+.column4 {
+    margin: auto;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative
+}
+
 .container-4 p {
     margin-top: 150px; 
     margin-left: 150px; 
@@ -143,23 +145,6 @@ header a:hover{
 
 #section-2, #section-4 {
     background-color: #131414; 
-}
-  
-header {
-    text-align: right;
-}
-  
-section {
-    text-align: center;
-}
-    
-footer {
-    background-color: #131414;
-    color: #1F2D3D;
-    text-align: right;
-    height: 50px;
-    padding-right: 40px;
-    padding-top: 10px; 
 }
 
 container2 {
@@ -294,4 +279,13 @@ credits to: Caraballo, Orlando NYCDA Instructor SEI-2018 */
 @keyframes fadeIn {    
     25% { opacity: 1; } 
     70% { opacity: 0; }
+}
+
+footer {
+    background-color: #131414;
+    color: #1F2D3D;
+    text-align: right;
+    height: 50px;
+    padding-right: 40px;
+    padding-top: 10px; 
 }
