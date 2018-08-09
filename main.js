@@ -1,14 +1,10 @@
 
+// Credits to: Caraballo, Orlando NYCDA Instructor SEI-2018 */
 
-// window.onscroll = function() {myFunction()};
+let flip = document.getElementsByClassName("ani")[0] 
+flip.addEventListener("click", animation)
 
-// let mynavbar = document.getElementById("navbar");
-// let sticky = mynavbar.offsetTop;
+function animation(event){ 
 
-// function myFunction() {
-//   if (window.pageYOffset > sticky) {
-//     mynavbar.classList.add("sticky");
-//   } else {
-//     mynavbar.classList.remove("sticky");
-//   }
-// }
+    event.target.classList.add("ani-2")
+}
